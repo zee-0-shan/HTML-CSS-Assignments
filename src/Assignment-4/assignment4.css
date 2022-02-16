@@ -20,7 +20,8 @@ body {
     display: flex;
     height: 7vh;
     justify-content: space-between;
-    border: 1px  solid grey
+    border: 1px  solid grey;
+    box-sizing: border-box;
  }
 .logo{
     position: absolute;
@@ -121,7 +122,7 @@ footer{
     background-color: rgb(43, 186, 243);
     row-gap: 20px;
     padding: 10px;
-    width: 100vw;
+    width: 98vw;
 }
 footer ul li{
     list-style: none;
